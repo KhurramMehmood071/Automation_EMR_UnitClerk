@@ -133,7 +133,7 @@ public class C_First_Search_Then_Book_Appt {
 //				.sendKeys(Patient_Phone_No);
 //
 		// Locate Search Button by XPath
-		driver.findElement(By.xpath("/html/body/app-root/app-search-patient/div/mat-card/form/div[2]/button[1]"))
+		driver.findElement(By.xpath("/html/body/app-root/app-search-patient/div/mat-card/form/div[2]/div/button[1]"))
 				.click();
 
 		// Flow
